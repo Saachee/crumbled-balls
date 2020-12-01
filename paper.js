@@ -1,6 +1,6 @@
 class paper {
     constructor(x,y,width,height){
-
+        
     
     var options={
         isStatic:false,
@@ -10,6 +10,8 @@ class paper {
 
 
     }
+    this.body=Bodies.circle(this.x, this.y, this.r/2, options);
 }
+ 
 
 }
